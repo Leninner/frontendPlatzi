@@ -72,3 +72,28 @@ ul:hover {
     margin: 0;
     color: white;
 }
+
+.section {
+    height: 300px;
+}
+
+.section__title {
+    color: white;
+    font-size: 25px;
+}
+
+.input {
+    border: 2px solid white;
+    border-radius: 35px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline-style: none;
+}
+
+::placeholder {
+    color: white;
+}
