@@ -276,6 +276,9 @@ ul:hover {
     letter-spacing: 1px;
     margin: 10px 0px;
 }
+.button:hover {
+    border: 2px solid white;
+}
 
 .footer {
     background: #804aff;
@@ -295,4 +298,31 @@ ul:hover {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.register__contenedor--iniciar {
+    text-align: center;
+}
+
+.register__contenedor--iniciar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register__contenedor--iniciar a:hover {
+    text-decoration: underline;
+}
+
+input {
+    cursor: pointer;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+p {
+    cursor: grab;
 }
