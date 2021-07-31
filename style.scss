@@ -8,6 +8,8 @@ body {
     background-color: #9b5de5;
 }
 
+$white: white;
+
 .header {
     width: 100%;
     height: 80px;
@@ -49,7 +51,7 @@ ul:hover {
 }
 
 .header__menu li a {
-    color: white;
+    color: $white;
     text-decoration: none;
 }
 
@@ -70,7 +72,7 @@ ul:hover {
 
 .header__menu--profile p {
     margin: 0;
-    color: white;
+    color: $white;
 }
 
 .section {
@@ -83,15 +85,15 @@ ul:hover {
 }
 
 .section__title {
-    color: white;
+    color: $white;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 .input {
-    border: 2px solid white;
+    border: 2px solid $white;
     border-radius: 35px;
-    color: white;
+    color: $white;
     font-size: 16px;
     height: 50px;
     padding: 0px 20px;
@@ -101,11 +103,11 @@ ul:hover {
 }
 
 .input::placeholder {
-    color: white;
+    color: $white;
 }
 
 .categories__title {
-    color: white;
+    color: $white;
     font-size: 16px;
     position: absolute;
     padding-left: 30px;
@@ -170,14 +172,15 @@ ul:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-.carousel-item__details img {
-    width: 32px;
+
+    img {
+        width: 32px;
+    }
 }
 
 .carousel-item__details--subtitle,
 .carousel-item__details--title {
-    color: white;
+    color: $white;
 }
 
 .carousel-item__details--subtitle:hover,
@@ -215,9 +218,9 @@ ul:hover {
 
 .login__container {
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
+    border: 2px solid $white;
     border-radius: 40px;
-    color: white;
+    color: $white;
     padding: 60px 68px 40px;
     min-height: 700px;
     min-width: 300px;
@@ -229,23 +232,23 @@ ul:hover {
 .login__container-form {
     display: flex;
     flex-direction: column;
-}
 
-.login__container-form label {
-    font-size: 14px;
+    label {
+        font-size: 14px;
+    }
 }
 
 .login__container--remember_me {
-    color: white;
+    color: $white;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-}
 
-.login__container--remember_me a {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
+    a {
+        color: $white;
+        font-size: 14px;
+        text-decoration: none;
+    }
 }
 
 .login__container--remember_me a:hover {
@@ -270,7 +273,7 @@ ul:hover {
 
 .login__container--register a {
     font-size: 16px;
-    color: white;
+    color: $white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -285,7 +288,7 @@ ul:hover {
     border-radius: 0;
     border-top: 0;
     border-right: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $white;
     font-size: 16px;
     outline: none;
     margin-bottom: 20px;
@@ -294,14 +297,14 @@ ul:hover {
 }
 
 .login__input::placeholder {
-    color: white;
+    color: $white;
 }
 
 .button {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 25px;
-    color: white;
+    color: $white;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -310,7 +313,7 @@ ul:hover {
     margin: 10px 0px;
 }
 .button:hover {
-    border: 2px solid white;
+    border: 2px solid $white;
 }
 
 .footer {
@@ -324,7 +327,7 @@ ul:hover {
 .footer a {
     cursor: pointer;
     font-size: 14px;
-    color: white;
+    color: $white;
     padding-left: 30px;
     text-decoration: none;
 }
@@ -339,7 +342,7 @@ ul:hover {
 
 .register__contenedor--iniciar a {
     text-decoration: none;
-    color: white;
+    color: $white;
     font-size: 16px;
     font-weight: bold;
 }
@@ -390,13 +393,13 @@ p {
 }
 
 .error__container h1 {
-    color: white;
+    color: $white;
     cursor: pointer;
     font-size: 90px;
 }
 
 .error__container p {
-    color: white;
+    color: $white;
     font-size: 16px;
     font-weight: bold;
 }
